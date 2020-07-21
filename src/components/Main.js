@@ -8,7 +8,7 @@ const Main = () => {
   const { timing } = slideInDown;
   const { ref } = useWebAnimations({
     keyframes: {
-      transform: 'translateY(70px)'
+      transform: "translateY(70px)",
     },
     timing: {
       ...timing,
@@ -53,8 +53,14 @@ const Main = () => {
         </Button>
       </Grid>
       <Grid item sm={6} xs={12}>
-        <img src={BrainImg} className='target' style={{marginTop:'-50px'}} ref={ref}/>
-        <img src={MainImg} style={{marginTop:'-440px'}}/>
+        <img
+          src={BrainImg}
+          className="target"
+          style={{ marginTop: "-50px" }}
+          ref={ref}
+          alt=""
+        />
+        <img src={MainImg} style={{ marginTop: "-440px" }} alt="" />
       </Grid>
     </Grid>
   );
