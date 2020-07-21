@@ -1,3 +1,11 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(75, 6, 193, 1),
+    rgba(206, 2, 189, 1)
+  );
+}
+
 .custom {
   background-image: linear-gradient(
     to right,
@@ -8,4 +16,13 @@
 
 ul.MuiList-root.MuiList-padding {
   padding: 0;
+}
+
+.textColor {
+  color: white;
+}
+
+.button {
+  background: blue;
+  text-color: white;
 }
