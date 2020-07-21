@@ -26,3 +26,8 @@ ul.MuiList-root.MuiList-padding {
   background: blue;
   text-color: white;
 }
+
+ul.content {
+  display: flex;
+  flex-wrap: wrap;
+}
