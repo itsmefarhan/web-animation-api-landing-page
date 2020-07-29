@@ -35,7 +35,7 @@ const Main = () => {
           style={{ marginTop: "30px" }}
         >
           Enhance your communications with psychology-based copywriting and UX
-          writing
+          writing!
         </Typography>
 
         <Button
